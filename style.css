@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f;
+    color: #c004f4;
+    font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+@font-face{
+    font-family: 'Windows 95 Font';
+    src: url('W95font.otf') format('opentype');
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1{
+    color: #c004f4;
+    margin-bottom: 30px;
+    font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+input{
+    width: 400px;
+    max-width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #c004f4;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: #c004f4;
+    font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+input::placeholder{
+    color: #6500d2;
+}
+
+button{
+    background-color: #c004f4;
+    color: #0f0f0f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: #6500d2;
+}
+
+#imageDisplay{
+    margin-top: 30px;
+    text-align: center;
+    min-height: 50px;
+}
+
+#imageDisplay img{
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.message{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+.success{
+    background-color: #0f0f0f;
+    color: #ff00ea;
+    border: 2px solid #ff00ea;
+}
