@@ -2,8 +2,7 @@
 
 ## Live Demo
 
-- 
-
+- https://alexandersaadaoui.github.io/final-project-prototype/
 - Examples (copy and paste!):
 - https://tfwiki.net/mediawiki/images2/b/b6/TF07-Leader-Optimus-Prime.jpg
 - https://www.lego.com/cdn/cs/history/assets/blt8764d47ac4814031/4.jpg
@@ -25,5 +24,6 @@
 - Isabella Lee and generative AI helped me with script.js and other technical issues
 
 ## Future Enhancements
+
 
 - I wish I properly used MongoDB and all that follows with APIs/databases, but unfortunately, I could not figure it out.
